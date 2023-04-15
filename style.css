@@ -62,14 +62,18 @@ a{
     width: 450px;
     height: auto;
 }
-.content button{
-    background-color: #3882f8;
-    color: #E5E7EB;
+button{
     width: 100px;
     height: 30px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    background-color: #3882f8;
     border-radius: 10px;
+    color: #E5E7EB;
     font-weight: bold;   
-  
+
 }
 
 
@@ -87,6 +91,46 @@ a{
 
 
 
+
+.container{
+    background-color: gray;
+    height: 400px;
+    display: flex;
+    flex-direction: column;    
+}
+.info-bar{
+    display: flex;
+   flex-direction: column;
+   background-color: #f9faf8;
+   height: auto;
+
+}
+.info{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.card{
+    max-width: 150px;
+    text-align: center;
+}
+
+.box{
+    border: 4px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: #3882f8;
+  
+}
 
 
 
