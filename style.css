@@ -167,8 +167,46 @@ button{
 
 
 .call-to-action{
-    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
 }
+
+.call{
+    background-color: rgb(37, 133, 165);
+    width: 900px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+  
+
+}
+.call-section{
+    margin-left: 100px;
+    padding: 0;
+    color: #E5E7EB;
+
+}    
+.time{
+    color: #f9faf8;
+    font-size: 20px;
+   
+}
+.call p{
+    margin: 0;
+    padding: 0;
+}
+.call button{
+    border: 2px solid;
+    border-color: white;
+    align-self: center;
+    margin-right: 100px;
+}
+
 
 
 
