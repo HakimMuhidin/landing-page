@@ -101,8 +101,7 @@ button{
 .info-bar{
     display: flex;
    flex-direction: column;
-   background-color: #f9faf8;
-   height: auto;
+   background-color: white;
 
 }
 .info{
@@ -121,6 +120,7 @@ button{
 .card{
     max-width: 150px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .box{
@@ -130,6 +130,33 @@ button{
     border-radius: 10px;
     border-color: #3882f8;
   
+}
+
+.hero-quote{
+   font-size: 36px;
+   font-style: italic;
+    background-color: #E5E7EB;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: 1;
+
+}
+
+.quote{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+   color: #1f2937; 
+   margin: 80px;
+   height: auto;
+   align-items: flex-end;
+
+
+}
+.quote p{
+
+    margin-right: 70px;
 }
 
 
@@ -147,6 +174,8 @@ button{
 
 
 .footer{
+    background-color: #1f2937;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
